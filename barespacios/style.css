@@ -1,0 +1,84 @@
+
+
+variables {
+    --primario: #D8C48F;
+    --secundario: #BE1717;
+}
+
+/* LA BASE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 0.4rem;
+}
+
+html {
+    cursor: crosshair;
+    font-size: 75%;
+    background-color: var(--secundario);
+    color: black;
+}
+
+body {
+    padding: 4.8rem 2.4rem 0 2.4rem;
+    max-width: 40rem;
+}
+
+#logo {
+    height: 7rem;
+    padding-bottom: 0.8rem;
+}
+
+
+p {
+    font-family: Whyte;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+p {
+    padding-bottom: 2rem;
+}
+
+.detalles {
+    font-size: 1.4rem;
+    opacity: 60%;
+    display: flex;
+    gap: 0.8rem;
+}
+
+
+
+
+
+
+.btn {
+    box-shadow: 0px 0px 5px 5px black;
+    background: black;
+    border-radius: 100rem;
+    color: white;
+    padding: 0.4rem 1.6rem;
+    margin-bottom: 2rem;
+}
+
+a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    gap: 0.8rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    gap: 0.8rem;
+    color: #828282;
+     
+}
+
+.info, .project {
+    padding-bottom: 4rem;  
+}
